@@ -1,0 +1,41 @@
+{
+  "name": "vue-cms",
+  "version": "1.0.0",
+  "description": "\"# Vue-Cms\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --port 3000 --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liwang1378/Vue-Cms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liwang1378/Vue-Cms/issues"
+  },
+  "homepage": "https://github.com/liwang1378/Vue-Cms#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "vue-loader": "^15.4.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "dependencies": {
+    "mint-ui": "^2.2.13",
+    "vue": "^2.5.17"
+  }
+}
