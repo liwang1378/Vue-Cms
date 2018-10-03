@@ -1,0 +1,11 @@
+{
+	"status":0,
+	"message":[{
+		"id":2,
+		"title":"IT校训与培训",
+		"click":20,
+		"add_time":"2018-12-05T03:12:12.000Z",
+		"content":"<div class='city_con' style='display: block;'><center><strong>精品课程</strong><ul><li><a href='http://www.itcast.cn' target='_blank'><span class='imgbox'><img src='public/images/4.jpg'/></span><span class='s_name'>同学，还在么？是否有需要我帮你的呢？</span></a></li><li><a href='http://sh.itcast.cn' target='_blank'><span class='imgbox'><img src='public/images/2.jpg'/></span><span class='s_name'>上海</span></a></li><li><a href='http://gz.itcast.cn' target='_blank'><span class='imgbox'><img src='public/images/3.jpg'/></span><span class='s_name'>您好，欢迎咨询传智播客.黑马程序员！我们每入学10名学员，就有7名来自老学员口碑推荐！我们是业内唯一一家以班级为单位公布所有学员就业薪资的教育机构！本月月底前，全校区、全学科基础班限时免费，您可留下【姓名+电话】，即可获取免费试学名额！</span></a></li></ul></center></div>"
+		}
+	]
+}
