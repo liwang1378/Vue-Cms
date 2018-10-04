@@ -2,9 +2,12 @@
 	<div class="app-container">
 		<!-- Header -->
 		<mt-header fixed title="我的九江">
-			<router-link to="/" slot="left">
+			<!-- <router-link to="/" slot="left">
 				<mt-button icon="back">返回</mt-button>
-			</router-link>
+			</router-link> -->
+			<a href="#" slot="left">
+				<mt-button icon="back" @click="back">返回</mt-button>
+			</a>
 			<mt-button icon="more" slot="right"></mt-button>
 		</mt-header>
 
@@ -37,7 +40,14 @@
 </template>
 
 <script>
-	
+export default{
+	methods:{
+		back(){
+			console.log(this)
+			this.$router.go(-1)
+		}
+	}
+}	
 </script>
 
 <style lang="scss" scoped>

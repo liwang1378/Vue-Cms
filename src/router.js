@@ -8,7 +8,7 @@ import NewsList from './components/news/NewsList.vue'
 import NewsInfo from './components/news/NewsInfo.vue'
 import PhotoList from './components/photos/PhotoList.vue'
 import PhotoInfo from './components/photos/PhotoInfo.vue'
-
+import ProductList from './components/products/ProductList.vue'
 var router = new VueRouter({
 	routes: [
 		{path:'/' , redirect: '/home'},//默认重定向
@@ -19,7 +19,8 @@ var router = new VueRouter({
 		{path:'/home/newsList',component:NewsList},
 		{path:'/home/newsInfo/:id',component:NewsInfo},
 		{path:'/home/PhotoList',component:PhotoList},
-		{path:'/home/photoInfo/:id',component:PhotoInfo}
+		{path:'/home/photoInfo/:id',component:PhotoInfo},
+		{path:'/home/ProductList',component:ProductList}
 	],
 	linkActiveClass: 'mui-active'//覆盖默认的路由高亮样式，默认为router-link-active
 })
